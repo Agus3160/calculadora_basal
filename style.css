@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body{
+    background-color: #d1c4ab;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,13 +12,21 @@ input {
     background-color: #eee;
 }
 
+/*
+.color1 {color: #513039;}
+.color2 {color: #6d4a59;}
+.color3 {color: #9c7778;}
+.color4 {color: #c29e9c;}
+.color5 {color: #d1c4ab;}
+*/
+
 button {
   font-size: 15px;
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
-	background-color: #FF416C;
-	border: 1px solid #FF416C;
+	background-color: #513039;
+	border: 1px solid #513039;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -44,7 +53,8 @@ button:active {
 }
 
 #calculadora{
-    background: white;
+    background: #6d4a59;
+    color: white;
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
@@ -61,7 +71,7 @@ button:active {
 }
 
 #detalle{
-    background: #FF416C;
+    background: #9c7778;
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
@@ -76,7 +86,7 @@ button:active {
 }
 
 .resultado{
-    color: #0A81D1;
+    color: #c29e9c;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 5px;
